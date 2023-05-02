@@ -1,0 +1,28 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container col-8">
+	<table class="table table-bordered">
+		<th>
+			<tr>
+				<td>TTittle</td>
+				<td>Price</td>
+				<td>slug</td>
+			</tr>
+		</th>
+		<% for (let book of listbooks ) { %>
+			<tr>
+				<td>
+					<strong>
+						<%= book.title %>
+					</strong>
+				</td>
+				<td>
+					<%= book.price %>
+				</td>
+				<td>
+					<%= book.slug %>
+				</td>
+			</tr>
+			<% } %>
+	</table>
+</div>

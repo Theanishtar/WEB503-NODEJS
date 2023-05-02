@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+	border-bottom: 3px solid rgb(23, 213, 96);
+}
+
+.topnav a.active {
+	border-bottom: 3px solid rgb(0, 72, 28);
+}
+
+.product {
+	width: 230px;
+	height: auto;
+	border: 1px solid gray;
+	float: left;
+	margin: 2px;
+	text-align: center;
+	box-shadow: 0 0 2px grey;
+	border-radius: 5px;
+	margin: 10px;
+	padding-bottom: 30px;
+}
+
+.product img {
+	width: 220px;
+}
+
+.product>p {
+	margin: 5px;
+	text-align: center;
+}
+
+.product .title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+article {
+	padding-left: 50px;
+	background-color: #f1f1f1;
+	height: auto;
+}

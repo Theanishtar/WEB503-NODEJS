@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="../public/css/style.css"> -->
+</head>
+
+<style>
+	body {
+		margin: 0;
+	}
+
+	.topnav {
+		overflow: hidden;
+		background-color: #f1f1f1;
+	}
+
+	.topnav a {
+		float: left;
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		border-bottom: 3px solid transparent;
+	}
+
+	.topnav a:hover {
+		border-bottom: 3px solid rgb(23, 213, 96);
+	}
+
+	.topnav a.active {
+		border-bottom: 3px solid rgb(0, 72, 28);
+	}
+
+	.product {
+		width: 230px;
+		height: auto;
+		border: 1px solid gray;
+		float: left;
+		margin: 2px;
+		text-align: center;
+		box-shadow: 0 0 2px grey;
+		border-radius: 5px;
+		margin: 10px;
+		padding-bottom: 30px;
+	}
+
+	.product img {
+		width: 220px;
+	}
+
+	.product>p {
+		margin: 5px;
+		text-align: center;
+	}
+
+	.product .title {
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	article {
+		padding-left: 50px;
+		background-color: #f1f1f1;
+		height: auto;
+	}
+</style>
+
+<body>
+
+	<div class="topnav">
+		<a href="/">Home</a>
+		<a class="active" href="#">Product</a>
+		<a href="add">Add Product</a>
+	</div>
+
+	<div style="padding-left:16px">
+		<h2>Trang sản phẩm</h2>
+		<p>Hover over the links.</p>
+
+		<article>
+			<p class="title">
+				Tên sản phẩm: <%= product.title %>
+			</p>
+			ảnh:
+			<img src="/images/<%= product.imageURL %>" alt="<%= product.imageURL %>">
+			Giá: <p class="title">$<%= product.price %>
+			</p>
+			<p>
+				Mô tả: <%=product.description %>
+			</p>
+
+		</article>
+	</div>
+
+</body>
+
+</html>
