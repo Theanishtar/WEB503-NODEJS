@@ -86,8 +86,8 @@ Nhập dữ liệu
 ### Cài module express và express-generator
 Nếu máy của bạn đã cài rồi thì thôi bỏ qua, còn chưa thì
 1. Mở command line
-2. Gõ  lệnh npm install -g express
-3. Tiếp theo gõ lệnh  npm -g install express-generator
+2. Gõ  lệnh npm `install -g express`
+3. Tiếp theo gõ lệnh  `npm -g install express-generator`
 
 ### Tạo project để thực tập
 1. Vào command line rồi chạy lệnh:
