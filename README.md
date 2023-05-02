@@ -1,39 +1,52 @@
 # WEB503 - NODEJS
-## Clone repo về máy
-Mở thư mục sau:<br>
-<img src="https://raw.githubusercontent.com/dangtranhuu/images/main/web503-nodejs/download-repo.png" ><br>
-Chuột phải -> Mở bằng Terminal:
-<img src="https://raw.githubusercontent.com/dangtranhuu/images/main/web503-nodejs/open-terminal.png" ><br>
+Development by Tran Huu Dang
 
-Gõ lần lượt các lệnh sau và nhấn enter (mỗi lệnh enter một lần):
+<details >
+<summary>
 
-`npm init` <br>
-`npm install --save express`<br>
-`npm install --save nodemon`<br>
-`npm install --save ejs` <br>
-`npm install --save multer`<br>
+## Bài 01: Calculator 
+</summary>
 
-<img src="https://raw.githubusercontent.com/dangtranhuu/images/main/web503-nodejs/npm-install-save.gif" >
+### Chưa cập nhật
+</details>
+
+
+<details >
+<summary>
+
+## Bài 02: EJS Template
+</summary>
+
+### Chưa cập nhật
+</details>
+
+<details >
+<summary>
+
+## Bài 03: CRUD Trong NODEJS
+</summary>
+
+### Chưa cập nhật
+</details>
+
+
+<details >
+<summary>
+
+## Bài 04: CONNECT DATABSE 
+</summary>
+
+### Chưa cập nhật
+</details>
+
+
+<details >
+<summary>
+
+## Bài 05: REST full API 
+</summary>
 <br>
-Cấu trúc dự án sau khi cài đặt thành công: <br/>
-<img src="https://raw.githubusercontent.com/dangtranhuu/images/main/web503-nodejs/struct.png" >
-
-## Chạy dự án:
-
-Chạy từng bài lab trong project
-
-Ví dụ chạy lab01: `cd lab01` -> `node index.js`
-
-Ví dụ chạy lab02: `cd..` -> `cd lab02` -> `node index.js`
-
-----
-# Bài 01: Calculator 
-# Bài 02: EJS Template
-# Bài 03: CRUD Trong NODEJS
-# Bài 04: CONNECT DATABSE   
-# Bài 05: REST full API 
-# RESTful API trong NodeJS
-REST là gì?  REST – viết đầy đủ là REpresentational State Transfer – là một chuẩn trong lập trình, nó định nghĩa các quy tắc để tạo ra các web service nhằm cung cấp các chức năng truy xuất, thêm mới, cập nhật tài nguyên từ xa qua http.  Restful API diễn dịch lại dữ liệu giữa các hệ thống ứng dụng và máy tính, tạo nên khả năng truyền tải dữ liệu đơn giản mà hiệu quả, phục vụ trao đổi dữ liệu giữa các nền tảng khác nhau và xa nhau.
+ REST là gì?  REST – viết đầy đủ là REpresentational State Transfer – là một chuẩn trong lập trình, nó định nghĩa các quy tắc để tạo ra các web service nhằm cung cấp các chức năng truy xuất, thêm mới, cập nhật tài nguyên từ xa qua http.  Restful API diễn dịch lại dữ liệu giữa các hệ thống ứng dụng và máy tính, tạo nên khả năng truyền tải dữ liệu đơn giản mà hiệu quả, phục vụ trao đổi dữ liệu giữa các nền tảng khác nhau và xa nhau.
 
 Với Restful, bạn sẽ tạo nên khả năng truy cập tài nguyên cho client thông qua các URI. Dữ liệu trả về sẽ trong dạng json, xml, html nhưng chủ yếu là json. Restful sử dụng HTTP như cỗ xe chuyên chở dữ liệu giữa server và client qua các method GET, HEAD, POST, PUT, PATCH, DELETE…
 
@@ -242,9 +255,35 @@ Trong tool postman, chọn method DELETE và nhập url rồi nhắp Send như h
 Trên đây là phần hướng dẫn RESTful API trong NodeJS, bao gồm các khái niệm, cách tạo api, cách test. Các vấn đề liên quan vẫn còn, đó là authentication trong restful, validation, kết hợp với phần front end… sẽ được trình bày tiếp sau.
 
 Bài tập: mời bạn thực hiện tạo bộ các hàm restful api tương tự như trình bày ở trên nhưng với table loai.
+</details>
 
 
+## Clone repo về máy
+Mở thư mục sau:<br>
+<img src="https://raw.githubusercontent.com/dangtranhuu/images/main/web503-nodejs/download-repo.png" ><br>
+Chuột phải -> Mở bằng Terminal:
+<img src="https://raw.githubusercontent.com/dangtranhuu/images/main/web503-nodejs/open-terminal.png" ><br>
 
+Gõ lần lượt các lệnh sau và nhấn enter (mỗi lệnh enter một lần):
 
+`npm init` <br>
+`npm install --save express`<br>
+`npm install --save nodemon`<br>
+`npm install --save ejs` <br>
+`npm install --save multer`<br>
 
+<img src="https://raw.githubusercontent.com/dangtranhuu/images/main/web503-nodejs/npm-install-save.gif" >
+<br>
+Cấu trúc dự án sau khi cài đặt thành công: <br/>
+<img src="https://raw.githubusercontent.com/dangtranhuu/images/main/web503-nodejs/struct.png" >
+
+## Chạy dự án:
+
+Chạy từng bài lab trong project
+
+Ví dụ chạy lab01: `cd lab01` -> `node index.js`
+
+Ví dụ chạy lab02: `cd..` -> `cd lab02` -> `node index.js`
+
+----
 
