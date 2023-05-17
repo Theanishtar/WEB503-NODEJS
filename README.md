@@ -74,6 +74,7 @@ Với Restful, bạn sẽ tạo nên khả năng truy cập tài nguyên cho cli
 - 415 Unsupported Media Type – Không hỗ trợ kiểu tài nguyên
 - 422 Unprocessable Entity – Dữ liệu không được xử lý
 - 429 Too Many Requests – Có quá nhiều request
+- 500 Code Error - Lỗi do mã code
 
 ------
 ## Thực hiện restful api trong nodejs
