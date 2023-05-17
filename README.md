@@ -61,7 +61,7 @@ Với Restful, bạn sẽ tạo nên khả năng truy cập tài nguyên cho cli
 |`DELETE`|Xóa tài nguyên chỉ định trên server|
 --------------
 #### Khi request đến một tài nguyên, các status code sẽ trả về client :
-- 200 OK – Tra về trong các phương thức GET, PUT, PATCH, DELETE.
+- 200 OK – Trả về trong các phương thức GET, PUT, PATCH, DELETE.
 - 201 Created – Trả về khi tạo xong tài nguyên
 - 204 No Content – Trả về khi xoá xong 1 tài nguyên
 - 304 Not Modified – Tài nguyên không có thay đổi, client có thể dùng cache.
